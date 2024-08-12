@@ -74,6 +74,8 @@ Aqui está como ficou o meu .json depois de configurado o projeto Hello Triangle
                 // Aqui você inclui os caminhos para os diretórios que contém os cabeçalhos das funções
                 "-I${workspaceFolder}/../Dependencies/GLAD/include", //GLAD
                 "-I${workspaceFolder}/../Dependencies/glfw-3.4.bin.WIN64/include", //GLFW
+                "-I${workspaceFolder}/../Dependencies/glm", //GLM
+                "-I${workspaceFolder}/../Common/include", //Common
                 "${file}",
                 // Aqui você inclui o caminho para os outros arquivos .c ou .cpp
                 "${workspaceFolder}/glad.c",  //GLAD
@@ -113,7 +115,9 @@ Para o Visual Studio Code ainda encontrar os locais dos cabeçalhos das bibliote
                 "${workspaceFolder}/**",
                 // Aqui você inclui os caminhos para os diretórios que contém os cabeçalhos das funções
                 "${workspaceFolder}/../Dependencies/GLAD/include",
-                "${workspaceFolder}/../Dependencies/glfw-3.4.bin.WIN64/include"
+                "${workspaceFolder}/../Dependencies/glfw-3.4.bin.WIN64/include",
+                "${workspaceFolder}/../Common/include",
+                "${workspaceFolder}/../Dependencies/glm"
 
             ],
             "defines": [
@@ -131,7 +135,7 @@ Para o Visual Studio Code ainda encontrar os locais dos cabeçalhos das bibliote
 }
 ```
 
-A execução correta deste projeto deve resultar na seguinte janela: 
+A execução correta do projeto Hello3D deve resultar na seguinte janela: 
 
 ![image](https://github.com/user-attachments/assets/6b7bb032-511c-460c-b790-9f4704754a10)
 
