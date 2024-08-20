@@ -1,14 +1,25 @@
 # Processamento Gráfico: Computação Gráfica e Aplicações 2024/2
 
-Repositório de exemplos de códigos em C++ utilizando OpenGL moderna (3.3+) criado para a Atividade Acadêmica  Processamento Gráfico: Computação Gráfica e Aplicações do curso Ciência da Computação (modalidade presencial) da Unisinos.
+## Run Project
+Para rodar alguma aplicação, deve descomentar ```add_library``` e ```add_executable``` do projeto que
+queira executar
 
-As dependências estão pré-compiladas para Windows 10 64-bits e compilador do Visual Studio 2019/2022 e MinGW-64
-Se o seu ambiente de desenvolvimento for diferente, você deve baixar:
+Por exemplo:
+````cmake
+# 0-Hello3D
+add_library(glad "${GLAD_DIR}/src/glad.c")
+add_executable(OpenGLExample 0-Hello3D/Source.cpp)
+````
 
-- GLFW: https://www.glfw.org/
-- GLAD: https://glad.dav1d.de/ - para mais instruções, consulte: https://learnopengl.com/Getting-started/Creating-a-window
+## Projeto 0: Hello3D
+Projeto inicial código pela professora onde exibi um triângulo com pontos nos vértices.
 
-Para configurar os projetos em sua máquina utilizando o VSCode ou o Visual Studio (pode ser o Community), vá para os links:
+![img.png](0-Hello3D/Triangle-with-points.png)
 
-- [Visual Studio Code](https://github.com/fellowsheep/CG2024-2/blob/main/CONFIG-VSCode.md)
-- [Visual Studio](https://github.com/fellowsheep/CG2024-2/blob/main/CONFIG-VS2022%2B.md)
+## Projeto 1: Environment3DScenes
+Projeto inicial com o propósito para iniciar a projeção 3D com uma pirâmide giratória automática
+e uso de teclado com X, Y e Z para mudar a rotação.
+
+![img.png](1-Environment3DScenes/pyramid.png)
+
+
