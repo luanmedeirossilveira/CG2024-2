@@ -7,7 +7,6 @@ set(CMAKE_CXX_STANDARD 17)
 set(GLFW_DIR "${CMAKE_SOURCE_DIR}/Dependencies/glfw-3.4.bin.WIN64")
 set(GLAD_DIR "${CMAKE_SOURCE_DIR}/Dependencies/GLAD")
 set(GLM_DIR "${CMAKE_SOURCE_DIR}/Dependencies/glm")
-set(GLADC_DIR "${CMAKE_SOURCE_DIR}/0-Hello3D")
 
 # Adiciona os diretórios de include e de bibliotecas
 include_directories("${GLFW_DIR}/include" "${GLAD_DIR}/include" "${GLM_DIR}")
