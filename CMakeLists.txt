@@ -17,7 +17,7 @@ link_directories("${GLFW_DIR}/lib-static-ucrt")
 add_executable(OpenGLExample 0-Hello3D/Source.cpp)]]
 
 # 1-Environment3DScenes
-add_library(glad "${GLAD_DIR}/src/glad.c"
+#[[add_library(glad "${GLAD_DIR}/src/glad.c"
 		1-Environment3DScenes/Shader/Shader.h
 		1-Environment3DScenes/Shader/Shader.cpp
 		1-Environment3DScenes/Geometry/Geometry.h
@@ -25,7 +25,12 @@ add_library(glad "${GLAD_DIR}/src/glad.c"
 		1-Environment3DScenes/Callbacks/Callbacks.h
 		1-Environment3DScenes/Callbacks/Callbacks.cpp
 		1-Environment3DScenes/Source.cpp)
-add_executable(OpenGLExample 1-Environment3DScenes/Source.cpp)
+add_executable(OpenGLExample 1-Environment3DScenes/Source.cpp)]]
+
+# 2-Textures
+add_library(glad "${GLAD_DIR}/src/glad.c")
+add_executable(OpenGLExample 2-Hello3D-Camera/Source.cpp)
+
 
 # Linka as bibliotecas (Ajuste os nomes conforme o seu sistema)
 if (WIN32)

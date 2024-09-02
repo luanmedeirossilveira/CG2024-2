@@ -1,4 +1,4 @@
-C:/Users/Luan Medeiros/Documents/Projetos/pocs/CG2024-2/cmake-build-debug/CMakeFiles/glad.dir
-C:/Users/Luan Medeiros/Documents/Projetos/pocs/CG2024-2/cmake-build-debug/CMakeFiles/OpenGLExample.dir
-C:/Users/Luan Medeiros/Documents/Projetos/pocs/CG2024-2/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Luan Medeiros/Documents/Projetos/pocs/CG2024-2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Luanm/Documents/demo/CG2024-2/cmake-build-debug/CMakeFiles/glad.dir
+C:/Users/Luanm/Documents/demo/CG2024-2/cmake-build-debug/CMakeFiles/OpenGLExample.dir
+C:/Users/Luanm/Documents/demo/CG2024-2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Luanm/Documents/demo/CG2024-2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
