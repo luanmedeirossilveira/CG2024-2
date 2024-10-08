@@ -1,0 +1,4 @@
+"C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -G "MinGW Makefiles" -S C:\Users\Luanm\Documents\demo\CG2024-2 -B C:\Users\Luanm\Documents\demo\CG2024-2\cmake-build-release
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/Luanm/Documents/demo/CG2024-2/cmake-build-release

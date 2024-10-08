@@ -1,9 +1,0 @@
-# ninja log v6
-55	291	7458176315573070	CMakeFiles/glad.dir/1-Environment3DScenes/Callbacks/Callbacks.cpp.obj	ea7b76a5344159a
-27	1115	7458176315290930	CMakeFiles/glad.dir/1-Environment3DScenes/Shader/Shader.cpp.obj	2977a65423a03eb9
-44	306	7458176315448264	CMakeFiles/glad.dir/1-Environment3DScenes/Geometry/Geometry.cpp.obj	ca37313c061fb2fe
-14	2575	7458176315154810	CMakeFiles/glad.dir/Dependencies/GLAD/src/glad.c.obj	e5ec78869894fd89
-70	3801	7458176315718313	CMakeFiles/glad.dir/1-Environment3DScenes/Source.cpp.obj	56968fd44e3defcb
-85	3841	7458176315864625	CMakeFiles/OpenGLExample.dir/1-Environment3DScenes/Source.cpp.obj	99fb82f99fb58667
-3959	4194	7458176354609570	OpenGLExample.exe	279367fa3e846978
-3807	3959	7458176353083390	libglad.a	ed6deaeeab863db3

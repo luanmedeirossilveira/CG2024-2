@@ -1,0 +1,1 @@
+  -L"C:/Users/Luanm/Documents/demo/CG2024-2/Dependencies/glfw-3.4.bin.WIN64/lib-static-ucrt"  -lOpenGL32 -lglfw3 libglad.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

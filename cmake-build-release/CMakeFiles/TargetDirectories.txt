@@ -1,0 +1,4 @@
+C:/Users/Luanm/Documents/demo/CG2024-2/cmake-build-release/CMakeFiles/glad.dir
+C:/Users/Luanm/Documents/demo/CG2024-2/cmake-build-release/CMakeFiles/OpenGLTBGA.dir
+C:/Users/Luanm/Documents/demo/CG2024-2/cmake-build-release/CMakeFiles/edit_cache.dir
+C:/Users/Luanm/Documents/demo/CG2024-2/cmake-build-release/CMakeFiles/rebuild_cache.dir
